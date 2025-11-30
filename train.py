@@ -110,3 +110,4 @@ df_sub = pd.DataFrame(preds, columns=["file_name", "label"])
 df_sub.to_csv("submission.csv", index=False)
 
 print("submission.csv を作成しました！")
+
